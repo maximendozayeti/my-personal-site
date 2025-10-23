@@ -1,0 +1,35 @@
+
+.btn {
+  border-radius: 50px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.overflow-hidden img {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.75rem; /* makes them square with rounded corners */
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
